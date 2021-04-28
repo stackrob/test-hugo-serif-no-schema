@@ -2,6 +2,7 @@
   <div class="service-content">
     <h2 class="service-title">
       <a href="{{ .Permalink }}">{{ .Title }}</a>
+      <span>:)</span>
     </h2>
     <p>{{ .Content | plainify | htmlUnescape | truncate 120 "…" }}</p>
   </div>
